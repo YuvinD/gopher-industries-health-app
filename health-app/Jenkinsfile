@@ -12,8 +12,10 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Use 'bat' to run Maven package command in Windows
-                    bat "mvn clean package"
+                    // Navigate to the health-app directory and run the Maven package command
+                    dir('health-app') {
+                        bat "mvn clean package"
+                    }
                 }
             }
         }
@@ -21,16 +23,20 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    // Use 'bat' to run Maven test command in Windows
-                    bat "mvn test"
+                    // Navigate to the health-app directory and run the Maven test command
+                    dir('health-app') {
+                        bat "mvn test"
+                    }
                 }
             }
         }
 
         stage('Archive Artifacts') {
             steps {
-                // Archive the built JAR file
-                archiveArtifacts artifacts: 'health-app/target/*.jar', fingerprint: true
+                // Archive the JAR file generated in the health-app/target directory
+                dir('health-app') {
+                    archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+                }
             }
         }
     }
@@ -44,4 +50,3 @@ pipeline {
         }
     }
 }
-
