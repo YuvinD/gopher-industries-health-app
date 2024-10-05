@@ -6,6 +6,6 @@ services:
       context: .
       dockerfile: Dockerfile  # Reference to the Dockerfile in the root directory
     ports:
-      - "8080:8080"  # Map port 8080 to the host
+      - "8081:8080"  # Map port 8081 to the host
     container_name: health-app-container
     restart: always  # Restart the container if it crashes

@@ -50,14 +50,27 @@ pipeline {
                 }
             }
         }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    // Navigate to the root directory where docker-compose.yml is located
+                    dir('health-app') {
+                        // Build and run Docker containers using docker-compose
+                        bat "docker-compose down" // Stop any running containers (cleanup)
+                        bat "docker-compose up --build -d" // Build and deploy the containers in detached mode
+                    }
+                }
+            }
+        }
     }
 
     post {
         success {
-            echo 'Build completed successfully!'
+            echo 'Build and deployment completed successfully!'
         }
         failure {
-            echo 'Build failed.'
+            echo 'Build or deployment failed.'
         }
     }
 }
