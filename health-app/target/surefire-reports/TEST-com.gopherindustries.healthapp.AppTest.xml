@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.gopherindustries.healthapp.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.gopherindustries.healthapp.AppTest" time="0.017" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\yuvin\AppData\Local\Temp\surefire10534503107313801697\surefirebooter-20241005123121600_3.jar C:\Users\yuvin\AppData\Local\Temp\surefire10534503107313801697 2024-10-05T12-31-21_099-jvmRun1 surefire-20241005123121600_1tmp surefire_0-20241005123121600_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\yuvin\AppData\Local\Temp\surefire15779581067786833301\surefirebooter-20241005172146888_3.jar C:\Users\yuvin\AppData\Local\Temp\surefire15779581067786833301 2024-10-05T17-21-46_749-jvmRun1 surefire-20241005172146888_1tmp surefire_0-20241005172146888_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\yuvin\gopher-industries-health-app\health-app\target\test-classes;C:\Users\yuvin\gopher-industries-health-app\health-app\target\classes;C:\Users\yuvin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yuvin\AppData\Local\Temp\surefire10534503107313801697\surefirebooter-20241005123121600_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yuvin\AppData\Local\Temp\surefire15779581067786833301\surefirebooter-20241005172146888_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -49,12 +49,12 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jre-11.0.7.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\Incredibuild;C:\Program Files\dotnet\;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\yuvin\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Program Files\Python\Scripts;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\yuvin\AppData\Roaming\Python\Python312\Scripts;C:\Users\yuvin\AppData\Roaming\Python\Python312\Scripts\eb.exe;C:\Program Files\Python;C:\Users\yuvin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\yuvin\AppData\Local\Programs\Python\Python312\;C:\Users\yuvin\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\yuvin\AppData\Local\Programs\Python\Python311\;C:\msys64\home\yuvin\.splashkit;C:\msys64\home\yuvin\.splashkit\lib\win64;C:\msys64\home\yuvin\.splashkit\lib;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\yuvin\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\dotnet\runtime;C:\Users\yuvin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuvin\AppData\Roaming\npm;C:\Users\yuvin\AppData\Roaming\Python\Python312\Scripts;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jre-11.0.7.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\Incredibuild;C:\Program Files\dotnet\;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\yuvin\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Program Files\Python\Scripts;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\yuvin\AppData\Roaming\Python\Python312\Scripts;C:\Users\yuvin\AppData\Roaming\Python\Python312\Scripts\eb.exe;C:\Program Files\Python;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\yuvin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\yuvin\AppData\Local\Programs\Python\Python312\;C:\Users\yuvin\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\yuvin\AppData\Local\Programs\Python\Python311\;C:\msys64\home\yuvin\.splashkit;C:\msys64\home\yuvin\.splashkit\lib\win64;C:\msys64\home\yuvin\.splashkit\lib;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\yuvin\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\dotnet\runtime;C:\Users\yuvin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuvin\AppData\Roaming\npm;C:\Users\yuvin\AppData\Roaming\Python\Python312\Scripts;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testApp" classname="com.gopherindustries.healthapp.AppTest" time="0.002"/>
+  <testcase name="testApp" classname="com.gopherindustries.healthapp.AppTest" time="0.003"/>
 </testsuite>
