@@ -1,0 +1,11 @@
+version: '3'
+services:
+  health-app:
+    image: health-app:latest  # Name the Docker image
+    build:
+      context: .
+      dockerfile: Dockerfile  # Reference to the Dockerfile in the root directory
+    ports:
+      - "8080:8080"  # Map port 8080 to the host
+    container_name: health-app-container
+    restart: always  # Restart the container if it crashes
