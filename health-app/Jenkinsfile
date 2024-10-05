@@ -31,6 +31,17 @@ pipeline {
             }
         }
 
+        stage('Code Quality Analysis') {
+            steps {
+                // SonarQube Code Analysis
+                withSonarQubeEnv('SonarQubeServer') {  // SonarQube server name configured in Jenkins
+                    dir('health-app') {
+                        bat "mvn sonar:sonar"
+                    }
+                }
+            }
+        }
+
         stage('Archive Artifacts') {
             steps {
                 // Archive the JAR file generated in the health-app/target directory
