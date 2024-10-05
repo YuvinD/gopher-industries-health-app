@@ -63,6 +63,17 @@ pipeline {
                 }
             }
         }
+
+        stage('Monitoring and Alerting') {
+            steps {
+                script {
+                    // Example command to configure New Relic monitoring
+                    echo "Configuring New Relic for Monitoring and Alerting..."
+                    echo "license_key: '57ecbce7260f7e427c462554645678e1FFFFNRAL'"
+                    echo "app_name: 'Gopher Industries Health App'"
+                }
+            }
+        }
     }
 
     post {
