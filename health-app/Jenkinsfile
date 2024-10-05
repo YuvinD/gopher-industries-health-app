@@ -12,8 +12,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Build the Maven project
-                    sh "mvn clean package"
+                    // Use 'bat' to run Maven package command in Windows
+                    bat "mvn clean package"
                 }
             }
         }
@@ -21,8 +21,8 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    // Run unit tests
-                    sh "mvn test"
+                    // Use 'bat' to run Maven test command in Windows
+                    bat "mvn test"
                 }
             }
         }
@@ -44,3 +44,4 @@ pipeline {
         }
     }
 }
+
